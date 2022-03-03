@@ -1,0 +1,25 @@
+GET localhost:8090/api/alumnos
+
+###
+POST localhost:8090/api/alumnos
+Content-Type: application/json
+
+{
+  "nombre": "mauricio",
+  "apellido": "cardozo",
+  "email": "cardozo@mail.com"
+}
+
+###
+PUT localhost:8090/api/alumnos/1
+Content-Type: application/json
+
+{
+  "nombre": "maurici1o",
+  "apellido": "cardozo",
+  "email": "cardozo@mail.com"
+}
+
+
+###
+DELETE localhost:8090/api/alumnos/5
